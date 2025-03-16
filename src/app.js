@@ -1,7 +1,6 @@
 const express = require('express');
 const emailRoutes = require('./routes/emailRoutes');
 const cors = require('cors');
-require('./config/dotenv');
 
 const app = express();
 app.use(cors());
