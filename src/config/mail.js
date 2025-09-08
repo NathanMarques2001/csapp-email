@@ -2,7 +2,8 @@ const fs = require('fs');
 const path = require('path');
 const nodemailer = require('nodemailer');
 
-const secretsPath = path.join('C:\\Users\\NATHAN.BRANDAO\\Documents\\dev\\scrts\\mail.json');
+//const secretsPath = path.join('C:\\Users\\NATHAN.BRANDAO\\Documents\\dev\\scrts\\mail.json');
+const secretsPath = path.join('/var/www/scrt/mail.json');
 
 function loadSecrets() {
   try {
