@@ -1,2 +1,2 @@
 /src/config/mail.js
-/src/services/EmailService
+/src/services/EmailService.js
